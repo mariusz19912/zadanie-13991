@@ -1,9 +1,10 @@
 const string1 = "Uwielbiam JavaScript",
       string2 = "Jestem świetnym programistą";
 
-function porownanie(string1,string2) {
-  if (string1<string2) {
-    console.log(string2);
-  } 
+function porownanie(str1,str2) {
+  var b = Math.max(str1.length,str2.length);
+ return b;
 };
-porownanie(string1,string2);
+
+var x = porownanie(string1,string2);
+console.log(x);
